@@ -19,7 +19,7 @@ except Exception as e:
     raise e
 
 # ---------- Configuration ----------
-API_KEY = os.environ.get("OPENWEATHER_API_KEY", "6d4708305ad0e97b7ff5cfa497d2c84e")  # or paste your key here (not recommended)
+API_KEY = os.environ.get("["Your_Key"]", "["enter api key]")  # or paste your key here (not recommended)
 OWM_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather"
 OWM_ONECALL_URL = "https://api.openweathermap.org/data/2.5/onecall"
 FAVORITES_FILE = "favorites.json"
